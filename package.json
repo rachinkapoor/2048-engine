@@ -1,0 +1,22 @@
+{
+  "name": "2048-engine",
+  "version": "1.0.0",
+  "description": "A simple 2048 game engine (logical layer) on top of which you can build your own UI",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rachinkapoor/2048-engine.git"
+  },
+  "keywords": [
+    "2048"
+  ],
+  "author": "Rachin Kapoor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rachinkapoor/2048-engine/issues"
+  },
+  "homepage": "https://github.com/rachinkapoor/2048-engine#readme"
+}
