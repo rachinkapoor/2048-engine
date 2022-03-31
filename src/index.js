@@ -197,10 +197,10 @@ class GameEngine {
     let emptyCells = this.cells.filter(cell => cell === 0).length; 
     if ( emptyCells > 1) { return; } 
 
-    for (let i = 0; i < Game.Steps.length; i++) {
+    for (let i = 0; i < GameEngine.Steps.length; i++) {
       const cells = this.cells.slice()
 
-      this.dispatch(Game.Steps[i])
+      this.dispatch(GameEngine.Steps[i])
 
       if (this.hasEmptyCell()) {
         this.cells = cells
